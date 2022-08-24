@@ -1,3 +1,4 @@
+/** @param {NS} ns */
 export async function main(ns) {
 	const name = ns.args[0];
 	if (ns.args.length == 0) {
